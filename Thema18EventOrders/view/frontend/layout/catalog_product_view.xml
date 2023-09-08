@@ -1,0 +1,7 @@
+<referenceBlock name="product.info.details">
+    <block class="Magento\Framework\View\Element\Template" name="custom.tab" template="Perspective_Thema18EventOrders::custom_tab.phtml" group="detailed_info">
+        <arguments>
+            <argument name="title" xsi:type="string" translate="true">Custom Tab Title</argument>
+        </arguments>
+    </block>
+</referenceBlock>

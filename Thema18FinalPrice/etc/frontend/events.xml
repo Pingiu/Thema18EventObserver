@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="catalog_product_get_final_price">
+        <observer name="add_custom_tab" instance="Perspective\Thema18FinalPrice\Observer\FinalPriceEvents" />
+    </event>
+        <event name="catalog_product_collection_load_after">
+        <observer name="add_tab" instance="Perspective\Thema18FinalPrice\Observer\CartPriceEvents" />
+    </event>
+    
+</config>
